@@ -14,6 +14,9 @@ body {
     background: #899495;
     border-bottom: 0.5rem solid #00cca3;
 }
+.nav-header img {
+    opacity: 0.5;
+}
 .nav-link {
     display: inline-block;
     text-decoration: none;
@@ -35,4 +38,96 @@ body {
     background: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.007)), url(./pictures/Enlight2.JPG)center/cover fixed no-repeat;
     display: flex;
     flex-direction: column;
+}
+.top {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #181b24;
+    padding-bottom: 3rem;
+    font-weight: 700;
+}
+.top-title {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 0.10rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.top-info {
+    letter-spacing: 0.10rem;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: #00cca3;
+}
+.about {
+    padding: 2rem .5rem;
+    background: #899495;
+}
+.about-info {
+    margin: 3rem 1rem;
+}
+.about-title {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+    background: url(./pictures/textureblue.jpeg);
+}
+.about-text {
+color: #181b24;
+line-height: 1.2;
+font-size: 1.5rem;
+margin: 3rem 2rem;
+text-align: center;
+}
+.main {
+    background: #899495;
+    color: #181b24;
+}
+.camping, .isla, .pool {
+    background:  #f2f2f2;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    text-align: center;
+}
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+}
+.imgs img {
+ width: 100%;
+}
+.imgs {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 7px;
+ 
+}
+#quiz {
+  background: #00cca3;
+    color: #899495;
+    display: block;
+    margin: 0 auto;
+    border-radius: 7px;
+  box-shadow: 2px 5px #111e24;
+    padding: 0.5rem 1rem;
+    /* margin-top: 2rem; */
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    outline: none;
+    letter-spacing: 0.5rem;
+    transition: all 0.5s linear;
+}
+#quiz:hover {
+  color: #00cca3;
+  background: #899495;
+  transition: all 0.7s ease-in;
+  
+}
+.button-container {
+    background: #899495;
 }
