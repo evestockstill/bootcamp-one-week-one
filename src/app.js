@@ -2,7 +2,7 @@ import isYes from '../src/isYes.js';
 
 const quizbtn = document.getElementById('quizbtn');
 const correctAnswers = document.getElementById('correct');
-
+const results = document.getElementById('results');
 
 let correct = 0;
 
@@ -30,13 +30,10 @@ quizbtn.onclick = () => {
     }
     const answer3 = prompt('Do I enjoy camping?');
     if (isYes(answer3) === true) {
-       
         correct++;
         correctAnswers.textContent = correct;
         alert('Of Course');
-        const quizAnswers = document.getElementById('correct');
-        quizAnswers.classList.remove('hidden');
-        
+        results.innerHTML = `${userName} you got ${correct}/3!`;
     } else {
         alert('try again');
     }
@@ -50,4 +47,3 @@ quizbtn.onclick = () => {
 
 
 
-// document.getElementById('quizbtn').addEventListener('click');
