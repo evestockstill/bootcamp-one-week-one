@@ -67,11 +67,10 @@ body {
 }
 .about {
     padding: 2rem .5rem;
-    background: #899495;
-    color: #181b24;
+    background: #181b24;
 }
 .about-info {
-    background:  #f2f2f2;
+    background: #899495;
     width: 70%;
     margin: 0 auto;
     padding: 2rem;
@@ -82,7 +81,7 @@ body {
     font-size: 3rem;
     text-transform: capitalize;
     letter-spacing: 0.5rem;
-    background: url(./pictures/textureblue.jpeg);
+    background: url(../pictures/textureblue.jpeg);
 }
 .about-text {
     color: #181b24;
@@ -127,6 +126,6 @@ ul, ol {
     background: #899495;
     transition: all 0.7s ease-in;
 }
-/* .button-container {
-    background: #899495;
-} */
+.hidden {
+    visibility: hidden;
+}
