@@ -1,0 +1,52 @@
+.tower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    height: 500px;
+}
+ .towers{
+height: 200px;
+width: 200px;
+background: aquamarine;
+border: 4px solid darkgray;
+}
+.mall {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+}
+.malls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background: hotpink;
+    border: 4px solid darkgray;
+}
+#t1 {
+   
+    background: rgb(46, 147, 206);
+}
+#t2 {
+   
+    background: rgb(28, 148, 148);
+}
+#t3 {
+    flex: .4;
+    background: rgb(98, 98, 216);
+}
+#t4 {
+   
+    background: rgb(149, 162, 224);
+}
+#m1, #m3 {
+    background: rgb(236, 15, 236);
+}
+
