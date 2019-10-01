@@ -35,7 +35,7 @@ body {
 }
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.007)), url(./pictures/Enlight2.JPG)center/cover fixed no-repeat;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.007)), url(../pictures/Enlight2.JPG)center/cover fixed no-repeat;
     display: flex;
     flex-direction: column;
 }
@@ -108,7 +108,7 @@ ul, ol {
     gap: 7px;
     margin-top: 1.5rem;
 }
-#quiz {
+#quizbtn {
     background: #00cca3;
     color: #899495;
     display: block;
@@ -122,11 +122,11 @@ ul, ol {
     letter-spacing: 0.5rem;
     transition: all 0.5s linear;
 }
-#quiz:hover {
+#quizbtn:hover {
     color: #00cca3;
     background: #899495;
     transition: all 0.7s ease-in;
 }
-.button-container {
+/* .button-container {
     background: #899495;
-}
+} */
