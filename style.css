@@ -11,5 +11,28 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0.25rem 1rem;
+    background: #899495;
     border-bottom: 0.5rem solid #00cca3;
+}
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 14px;
+    font-style: italic;
+    text-transform: capitalize;
+    list-style-type: none;
+    background:  #899495;
+    color: #00cca3;
+    transition: all 1s ease; 
+}
+.nav-link:hover {
+    color: #067e66;
+    cursor: pointer;
+}
+.header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.007)), url(./pictures/Enlight2.JPG)center/cover fixed no-repeat;
+    display: flex;
+    flex-direction: column;
 }
