@@ -63,6 +63,7 @@ body {
     text-transform: capitalize;
     font-size: 1.1rem;
     color: #00cca3;
+    text-shadow: 1px 1px 1px #111e24;
 }
 .about {
     padding: 2rem .5rem;
@@ -92,6 +93,7 @@ body {
 }
 h2 {
     color: #00cca3;
+    text-shadow: 1px 2px 1px #111e24;
 }
 ul, ol {
     text-align: center;
