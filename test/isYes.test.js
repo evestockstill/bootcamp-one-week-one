@@ -13,15 +13,3 @@ test('returns false', function(assert) {
     const result = isYes(answer);
     assert.equal(result, expected);
 });
-// test('returns true', function(assert) {
-//     const answer1 = '';
-//     const expected = true;
-//     const result = isYes(answer);
-//     assert.equal(result, expected);
-// });
-// test('returns false', function(assert) {
-//     const answer = 'no';
-//     const expected = false;
-//     const result = isYes(answer);
-//     assert.equal(result, expected);
-// });
